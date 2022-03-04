@@ -201,13 +201,7 @@ for q in range (6):
     print ("Active Only ","{:.3}".format(ug_active_only[remote_survey_q[q]].mean()))
     print ("Passive Only","{:.3}".format(ug_passive_only[remote_survey_q[q]].mean()))
     print ("Cohen's d =","{:.2}".format(cohens_d(ug_active_only[remote_survey_q[q]],ug_passive_only[remote_survey_q[q]])))
-
-
-
-
-
-
-
+   
 
 
 
